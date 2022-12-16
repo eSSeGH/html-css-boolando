@@ -2,14 +2,145 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.9rem;
 }
 
 .navbar {
-    min-height: 10vh;
+    height: 10vh;
+    width: 100vw;;
     background-color: orangered;
     position: fixed;
     top: 0;
+    left: 0;
 }
+
+/************
+CONTAINER
+*************/
+.container1 {   
+    max-width: 75vw;
+}
+
+/************
+FLEX
+*************/
+.flex {
+    display: flex;
+}
+
+.products {
+    margin-top: 15vh;
+}
+
+/************
+POSITION RELATIVE
+*************/
+
+.relative {
+    position: relative;
+}
+
+/************
+ROW
+*************/
+
+.row-cols-3b {
+    margin-bottom: 3vh;
+}
+
+.container1 .row-cols-3b:last-child {
+    margin-bottom: 0;
+}
+
+/************
+CARD MARGIN
+*************/
+.row-cols-3b .col-card {
+    margin-right: 2vh;
+}
+
+.row-cols-3b :last-child {
+    margin-right: 0;
+}
+
+/************
+CARD
+*************/
+
+.col-card {
+    flex-basis: calc(100%/3);
+}
+
+.product-img {
+  width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+
+/************
+PRODUCT INFO
+*************/
+
+.product-info {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+}
+
+.discount,
+.sustainable {
+    display: inline-block;
+    color: white;
+    padding: 0.4rem;
+}
+
+.discount {
+    background-color: red;
+}
+
+.sustainable {
+    background-color: green;
+}
+
+/************
+LIKE
+*************/
+
+.like {
+    position: absolute;
+    right: 0;
+    top: 5%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 30px;
+    color: red;
+}
+
+/************
+PRODUCT DESC
+*************/
+
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+.original-price {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
 
 
 
