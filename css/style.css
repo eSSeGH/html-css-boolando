@@ -6,6 +6,10 @@
     font-size: 0.9rem;
 }
 
+/************
+HEADER
+*************/
+
 .navbar {
     height: 10vh;
     width: 100vw;;
@@ -13,11 +17,36 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
+    padding: 1vh;
+}
+
+.logo {
+    height: 8vh;
+}
+
+.gender-button,
+.icon-button {
+    background-color: orangered;
+    border: 0;
+    margin: 0;
+    padding: 1vh;
+    color: white;
+}
+
+.gender-button:hover,
+.icon-button:hover {
+  box-shadow: 0 0 1vh inset white;
+}
+
+.icon-button {
+    font-size: 1.5rem;;
 }
 
 /************
 CONTAINER
 *************/
+
 .container1 {   
     max-width: 75vw;
 }
@@ -25,6 +54,7 @@ CONTAINER
 /************
 FLEX
 *************/
+
 .flex {
     display: flex;
 }
@@ -44,6 +74,31 @@ POSITION RELATIVE
 /************
 ROW
 *************/
+
+.row-cols-3a {
+    align-items: center;
+    margin: 0;
+}
+
+/************
+COLUMN
+*************/
+
+.row-cols-3a [class^="col"] {
+    flex-basis: calc(100%/3);
+}
+
+.col1 {
+    justify-content: flex-start;
+}
+
+.col2 {
+    justify-content: center;
+}
+
+.col3 {
+    justify-content: flex-end;
+}
 
 .row-cols-3b {
     margin-bottom: 3vh;
