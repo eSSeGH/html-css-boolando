@@ -219,6 +219,11 @@ LIKE
     color: red;
 }
 
+.like:hover {
+    box-shadow: 0 0 1vh inset red;
+}
+    
+
 /************
 PRODUCT DESC
 *************/
