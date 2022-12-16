@@ -5,6 +5,11 @@
 }
 
 .navbar {
-    height: 10vh;
-    color: orangered;
+    min-height: 10vh;
+    background-color: orangered;
+    position: fixed;
+    top: 0;
 }
+
+
+
