@@ -44,6 +44,38 @@ HEADER
 }
 
 /************
+FOOTER
+*************/
+
+footer {
+    margin-top: 5vh;
+    background-color: black;
+}
+
+.boolando-srl {
+    color: white;
+    padding-bottom: 1vh;
+}
+
+.info-link {
+    text-decoration: none;
+    color: white;
+    padding: 0 0.3rem;
+}
+
+.row-cols-2 .col1 :nth-child(2) {
+    padding-left: 0;
+}
+
+.info-link:hover {
+    text-decoration: underline;
+}
+
+footer .icon-button {
+    background-color: black;
+}
+
+/************
 CONTAINER
 *************/
 
@@ -80,6 +112,12 @@ ROW
     margin: 0;
 }
 
+.row-cols-2 {
+    justify-content: space-between;
+    height: 12vh;
+    align-items:  center;
+}
+
 /************
 COLUMN
 *************/
@@ -88,15 +126,15 @@ COLUMN
     flex-basis: calc(100%/3);
 }
 
-.col1 {
+.row-cols-3a .col1 {
     justify-content: flex-start;
 }
 
-.col2 {
+.row-cols-3a .col2 {
     justify-content: center;
 }
 
-.col3 {
+.row-cols-3a .col3 {
     justify-content: flex-end;
 }
 
@@ -106,6 +144,10 @@ COLUMN
 
 .container1 .row-cols-3b:last-child {
     margin-bottom: 0;
+}
+
+.row-cols-2 [class^="col"] {
+    margin: 0;
 }
 
 /************
