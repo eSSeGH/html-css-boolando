@@ -177,6 +177,11 @@ CARD
     width: 100%;
 }
 
+.image-hover:hover {
+    z-index: 1;
+}
+
+
 /************
 PRODUCT INFO
 *************/
