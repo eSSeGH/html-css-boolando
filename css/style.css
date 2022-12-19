@@ -109,7 +109,10 @@ ROW
 
 .row-cols-3a {
     align-items: center;
-    margin: 0;
+}
+
+.row-cols-3b {
+    margin: 0 -1vh;
 }
 
 .row-cols-2 {
@@ -151,14 +154,10 @@ COLUMN
 }
 
 /************
-CARD MARGIN
+CARD PADDING
 *************/
 .row-cols-3b .col-card {
-    margin-right: 2vh;
-}
-
-.row-cols-3b :last-child {
-    margin-right: 0;
+    padding: 0 1vw;
 }
 
 /************
