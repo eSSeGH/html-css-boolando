@@ -177,8 +177,16 @@ CARD
     width: 100%;
 }
 
-.image-hover:hover {
-    z-index: 1;
+.image-hover {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0%;
+}
+
+.card:hover .image-hover {
+  opacity: 100%;
 }
 
 
